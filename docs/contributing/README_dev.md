@@ -34,7 +34,7 @@ Langchain-Chatchat 自 0.3.0 版本起，为方便支持用户使用 pip 方式�
 cd  Langchain-Chatchat/libs/chatchat-server/
 poetry install --with lint,test -E xinference
 
-# or use pip to install in editing mode:
+# and use pip to install in editing mode:
 pip install -e .
 ```
 

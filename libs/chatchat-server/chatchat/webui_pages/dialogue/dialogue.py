@@ -168,7 +168,7 @@ def dialogue_page(
     # st.write(st.session_state)
     # st.write(chat_box.context)
 
-    @st.experimental_dialog("模型配置", width="large")
+    @st.experimental_dialog("模型配置好", width="large")
     def llm_model_setting():
         # 模型
         cols = st.columns(3)
